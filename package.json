@@ -1,0 +1,29 @@
+{
+  "name": "pinterest",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "express-session": "^1.17.3",
+    "http-errors": "~1.6.3",
+    "mongoose": "^8.1.0",
+    "morgan": "~1.9.1",
+    "multer": "^1.4.5-lts.1",
+    "passport": "^0.7.0",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^8.0.0",
+    "session": "^0.1.0",
+    "uuid": "^9.0.1"
+  },
+  "description": "/- login and register screen\r /profile- profile page with boards\r /feed - feed page with all different pins\r /save/:pinid - will save pin in any board\r /delete/:pinid - will delete pin from any board\r / logout\r / edit/\r /upload",
+  "main": "app.js",
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC"
+}
